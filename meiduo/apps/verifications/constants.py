@@ -1,0 +1,2 @@
+SMS_CODE_REDIS_EXPIRES=120 #短信验证码过期时间
+SEND_SMS_CODE_INTERVAL = 300 #发送短信验证码时间

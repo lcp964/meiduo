@@ -1,0 +1,1407 @@
+INFO 2021-07-13 16:08:25,955 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-13 16:09:31,504 autoreload 251 /home/pyvip/meiduo/meiduo/meiduo/settings/dev.py changed, reloading.
+INFO 2021-07-13 16:09:45,302 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-13 16:11:19,749 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-13 16:14:54,067 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-13 16:16:27,982 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-13 16:19:14,920 autoreload 598 Watching for file changes with StatReloader
+ERROR 2021-07-13 16:22:22,468 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 17, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'session' in settings.CACHES
+ERROR 2021-07-13 16:22:22,575 basehttp 154 "GET / HTTP/1.1" 500 77540
+ERROR 2021-07-13 16:25:04,730 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 17, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'session' in settings.CACHES
+ERROR 2021-07-13 16:25:04,842 basehttp 154 "GET / HTTP/1.1" 500 77672
+ERROR 2021-07-13 16:25:06,484 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 17, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'session' in settings.CACHES
+ERROR 2021-07-13 16:25:06,563 basehttp 154 "GET / HTTP/1.1" 500 77807
+INFO 2021-07-13 16:26:21,555 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-13 16:26:21,783 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-07-13 16:26:21,925 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2021-07-13 16:26:22,076 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2021-07-13 16:26:22,485 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2021-07-13 16:26:26,433 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 08:58:47,781 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 08:58:48,072 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-07-14 08:58:48,308 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-14 08:58:48,366 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-14 08:58:48,999 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-07-14 08:58:49,308 log 228 Not Found: /favicon.ico
+WARNING 2021-07-14 08:58:49,464 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1972
+INFO 2021-07-14 08:59:30,157 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 08:59:40,485 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-14 08:59:40,821 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-07-14 08:59:42,774 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2021-07-14 08:59:42,973 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2021-07-14 08:59:43,022 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2021-07-14 08:59:43,028 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2021-07-14 13:40:09,217 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 13:40:09,386 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-07-14 13:40:09,533 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-14 13:40:09,604 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-14 13:40:09,798 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-14 22:49:08,478 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 22:49:08,605 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-07-14 22:49:08,651 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-14 22:49:08,674 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-07-14 22:49:08,901 log 228 Not Found: /favicon.ico
+INFO 2021-07-14 22:49:08,965 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-07-14 22:49:08,988 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1972
+INFO 2021-07-14 22:52:16,566 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 22:59:08,596 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 22:59:12,791 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 22:59:12,935 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-07-14 22:59:13,033 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2021-07-14 22:59:13,078 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2021-07-14 22:59:13,355 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+WARNING 2021-07-14 22:59:13,410 log 228 Not Found: /favicon.ico
+WARNING 2021-07-14 22:59:13,488 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1977
+INFO 2021-07-14 23:00:49,741 basehttp 154 "GET /?vscodeBrowserReqId=1626274849064 HTTP/1.1" 200 16286
+INFO 2021-07-14 23:00:52,063 basehttp 154 "GET /?vscodeBrowserReqId=1626274851628 HTTP/1.1" 200 16286
+INFO 2021-07-14 23:00:53,406 basehttp 154 "GET /?vscodeBrowserReqId=1626274852972 HTTP/1.1" 200 16286
+INFO 2021-07-14 23:00:53,633 basehttp 154 "GET /?vscodeBrowserReqId=1626274853196 HTTP/1.1" 200 16286
+INFO 2021-07-14 23:00:53,855 basehttp 154 "GET /?vscodeBrowserReqId=1626274853412 HTTP/1.1" 200 16286
+INFO 2021-07-14 23:03:13,454 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 23:03:18,492 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 23:04:11,832 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 23:04:28,379 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-14 23:04:37,155 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-14 23:04:37,240 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-07-14 23:04:37,556 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2021-07-14 23:04:37,655 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2021-07-14 23:04:37,657 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2021-07-14 23:04:37,787 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2021-07-15 09:07:18,371 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 09:07:32,570 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 09:28:18,541 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-15 09:28:18,817 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:18,975 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:18,998 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:19,244 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-07-15 09:28:19,429 log 228 Not Found: /favicon.ico
+WARNING 2021-07-15 09:28:19,497 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1972
+INFO 2021-07-15 09:28:34,510 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-15 09:28:34,889 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:35,155 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:35,238 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:35,524 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-07-15 09:28:36,114 log 228 Not Found: /favicon.ico
+WARNING 2021-07-15 09:28:36,203 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1977
+INFO 2021-07-15 09:28:46,829 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-07-15 09:28:47,435 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2021-07-15 09:28:47,568 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:47,618 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2021-07-15 09:28:47,658 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-07-15 09:29:48,981 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-15 09:31:53,259 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-15 09:31:54,492 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-15 09:31:54,761 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2021-07-15 09:37:59,896 basehttp 154 "GET / HTTP/1.1" 200 16286
+WARNING 2021-07-15 13:13:30,796 log 228 Not Found: /
+WARNING 2021-07-15 13:13:30,832 basehttp 154 "GET / HTTP/1.1" 404 2031
+WARNING 2021-07-15 13:13:31,152 log 228 Not Found: /favicon.ico
+WARNING 2021-07-15 13:13:31,265 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2082
+ERROR 2021-07-15 13:13:41,604 log 228 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 241, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 213, in inner
+    if request.path == reverse('admin:logout', current_app=self.name):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' with no arguments not found. 1 pattern(s) tried: ['admin/$logout\\/$']
+ERROR 2021-07-15 13:13:41,644 basehttp 154 "GET /admin/ HTTP/1.1" 500 105480
+WARNING 2021-07-15 13:14:59,816 log 228 Not Found: /
+WARNING 2021-07-15 13:14:59,883 basehttp 154 "GET / HTTP/1.1" 404 2112
+WARNING 2021-07-15 13:15:00,353 log 228 Not Found: /favicon.ico
+WARNING 2021-07-15 13:15:00,446 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2163
+INFO 2021-07-15 13:15:08,871 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-15 13:15:09,014 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-07-15 13:15:09,546 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+INFO 2021-07-15 13:15:09,688 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2021-07-15 13:15:09,843 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2021-07-15 13:15:09,908 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2021-07-15 13:15:10,379 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-07-15 13:15:10,547 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1821
+WARNING 2021-07-15 13:15:29,963 log 228 Not Found: /apidoc/
+WARNING 2021-07-15 13:15:29,992 basehttp 154 "GET /apidoc/ HTTP/1.1" 404 2151
+WARNING 2021-07-15 13:15:34,344 log 228 Not Found: /
+WARNING 2021-07-15 13:15:34,394 basehttp 154 "GET / HTTP/1.1" 404 2112
+WARNING 2021-07-15 13:16:02,121 log 228 Not Found: /
+WARNING 2021-07-15 13:16:02,150 basehttp 154 "GET / HTTP/1.1" 404 2111
+WARNING 2021-07-15 13:16:13,284 log 228 Not Found: /
+WARNING 2021-07-15 13:16:13,292 basehttp 154 "GET / HTTP/1.1" 404 2111
+WARNING 2021-07-15 13:21:05,888 log 228 Not Found: /sms_codes/(
+WARNING 2021-07-15 13:21:05,925 basehttp 154 "GET /sms_codes/(?P%3Cmobile%3E1[3-9]\d{9})/ HTTP/1.1" 404 2195
+WARNING 2021-07-15 13:21:18,220 log 228 Not Found: /sms_codes/(
+WARNING 2021-07-15 13:21:18,364 basehttp 154 "GET /sms_codes/(?P%3Cmobile%3E1[3-9]\d{9}) HTTP/1.1" 404 2194
+ERROR 2021-07-15 13:21:48,588 log 228 Internal Server Error: /sms_codes/15972924166/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/pyvip/meiduo/meiduo/meiduo/apps/verifications/views.py", line 23, in get
+    redis_conn = get_redis_connection('verify_codes')
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'verify_codes' in settings.CACHES
+ERROR 2021-07-15 13:21:48,725 basehttp 154 "GET /sms_codes/15972924166/ HTTP/1.1" 500 20632
+ERROR 2021-07-15 13:22:42,392 log 228 Internal Server Error: /sms_codes/15972924166/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/pyvip/meiduo/meiduo/meiduo/apps/verifications/views.py", line 23, in get
+    redis_conn = get_redis_connection('verify_codes')
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'verify_codes' in settings.CACHES
+ERROR 2021-07-15 13:22:42,442 basehttp 154 "GET /sms_codes/15972924166/ HTTP/1.1" 500 20632
+ERROR 2021-07-15 13:22:59,386 log 228 Internal Server Error: /sms_codes/15972924166/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/pyvip/meiduo/meiduo/meiduo/apps/verifications/views.py", line 23, in get
+    redis_conn = get_redis_connection('verify_codes')
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'verify_codes' in settings.CACHES
+ERROR 2021-07-15 13:22:59,418 basehttp 154 "GET /sms_codes/15972924166/ HTTP/1.1" 500 108660
+ERROR 2021-07-15 13:23:14,607 log 228 Internal Server Error: /sms_codes/15972924166/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/pyvip/meiduo/meiduo/meiduo/apps/verifications/views.py", line 23, in get
+    redis_conn = get_redis_connection('verify_codes')
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django_redis/__init__.py", line 12, in get_redis_connection
+    cache = caches[alias]
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/cache/__init__.py", line 76, in __getitem__
+    "Could not find config for '%s' in settings.CACHES" % alias
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find config for 'verify_codes' in settings.CACHES
+ERROR 2021-07-15 13:23:14,637 basehttp 154 "GET /sms_codes/15972924166/ HTTP/1.1" 500 20624
+INFO 2021-07-15 13:53:58,197 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 13:54:01,901 autoreload 251 /home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/xadmin/sites.py changed, reloading.
+INFO 2021-07-15 13:54:04,636 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 13:55:19,768 autoreload 251 /home/pyvip/meiduo/meiduo/meiduo/settings/dev.py changed, reloading.
+INFO 2021-07-15 13:55:27,424 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 13:55:31,613 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 13:56:15,955 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 13:56:58,325 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 13:59:37,134 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-15 14:04:07,711 autoreload 576 Watching for file changes with StatReloader
+INFO 2021-07-15 14:05:02,773 autoreload 203 /home/pyvip/meiduo/meiduo/meiduo/settings/dev.py changed, reloading.
+INFO 2021-07-15 14:05:11,507 autoreload 576 Watching for file changes with StatReloader
+INFO 2021-07-15 14:05:21,469 autoreload 203 /home/pyvip/meiduo/meiduo/meiduo/settings/dev.py changed, reloading.
+INFO 2021-07-15 14:05:28,664 autoreload 576 Watching for file changes with StatReloader
+INFO 2021-07-15 14:05:38,222 autoreload 203 /home/pyvip/meiduo/meiduo/meiduo/settings/dev.py changed, reloading.
+INFO 2021-07-15 14:05:42,654 autoreload 576 Watching for file changes with StatReloader
+INFO 2021-07-15 14:07:18,540 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-15 14:08:12,097 autoreload 236 /home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/xadmin/sites.py changed, reloading.
+INFO 2021-07-15 14:08:16,357 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-15 14:08:48,669 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-15 14:13:00,628 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-15 14:14:12,708 autoreload 236 /home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/xadmin/sites.py changed, reloading.
+INFO 2021-07-15 14:14:16,687 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-15 14:14:26,469 autoreload 236 /home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/xadmin/sites.py changed, reloading.
+INFO 2021-07-15 14:14:31,437 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-15 14:17:08,823 autoreload 612 Watching for file changes with StatReloader
+INFO 2021-07-18 17:35:43,569 autoreload 612 Watching for file changes with StatReloader
+WARNING 2021-07-19 08:59:59,964 log 228 Not Found: /
+WARNING 2021-07-19 09:00:00,175 basehttp 154 "GET / HTTP/1.1" 404 2111
+WARNING 2021-07-19 09:00:00,575 log 228 Not Found: /favicon.ico
+WARNING 2021-07-19 09:00:00,653 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2162
+INFO 2021-07-19 09:00:07,500 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-19 09:00:07,724 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2021-07-19 09:00:07,918 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2021-07-19 09:00:07,970 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2021-07-19 09:00:08,090 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2021-07-19 09:00:08,110 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2021-07-19 09:00:08,111 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2021-07-19 09:00:08,233 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2021-07-19 09:00:09,026 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-19 09:00:09,114 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2021-07-19 09:00:09,132 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2021-07-19 09:00:09,396 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2021-07-19 09:00:09,675 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2021-07-19 09:00:09,733 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2021-07-19 09:00:09,855 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2021-07-19 09:00:09,900 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2021-07-19 09:00:10,263 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2021-07-19 09:00:10,304 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2021-07-19 09:00:10,448 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2021-07-19 09:00:10,552 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2021-07-19 09:00:10,630 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:00:10,719 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2021-07-19 09:00:10,826 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2021-07-19 09:00:11,207 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2021-07-19 09:00:21,720 basehttp 154 "POST /admin/ HTTP/1.1" 200 4384
+INFO 2021-07-19 09:00:21,879 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:00:23,257 basehttp 154 "POST /admin/ HTTP/1.1" 200 4363
+INFO 2021-07-19 09:00:23,487 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:04:05,980 basehttp 154 "POST /admin/ HTTP/1.1" 200 4363
+INFO 2021-07-19 09:04:06,198 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:04:08,416 basehttp 154 "POST /admin/ HTTP/1.1" 200 4363
+INFO 2021-07-19 09:04:08,795 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:04:15,709 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2021-07-19 09:04:16,041 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 09:04:16,150 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2021-07-19 09:04:16,190 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2021-07-19 09:04:16,223 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2021-07-19 09:04:16,417 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:04:20,617 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 25020
+INFO 2021-07-19 09:04:20,773 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2021-07-19 09:04:20,789 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2021-07-19 09:04:20,805 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2021-07-19 09:04:20,836 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2021-07-19 09:04:20,826 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2021-07-19 09:04:21,150 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2021-07-19 09:04:21,345 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2021-07-19 09:04:21,399 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:04:21,389 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2021-07-19 09:04:21,412 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2021-07-19 09:04:21,430 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2021-07-19 09:04:21,506 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2021-07-19 09:04:21,762 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+WARNING 2021-07-19 09:04:21,800 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 09:04:21,874 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2021-07-19 09:04:21,938 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+WARNING 2021-07-19 09:04:22,097 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 09:04:22,228 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2021-07-19 09:04:54,495 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18549
+INFO 2021-07-19 09:04:55,997 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28726
+INFO 2021-07-19 09:04:56,301 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 09:04:56,684 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:04:57,124 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80769
+ERROR 2021-07-19 09:05:07,809 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 204, in render
+    c = self.get_render(context).flatten()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 121, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2021-07-19 09:05:08,382 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 698111
+ERROR 2021-07-19 09:05:12,069 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 204, in render
+    c = self.get_render(context).flatten()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 121, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2021-07-19 09:05:12,364 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 698111
+ERROR 2021-07-19 09:05:14,607 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 204, in render
+    c = self.get_render(context).flatten()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 121, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2021-07-19 09:05:14,800 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 698111
+ERROR 2021-07-19 09:05:15,499 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 204, in render
+    c = self.get_render(context).flatten()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 121, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2021-07-19 09:05:15,600 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 698111
+INFO 2021-07-19 09:06:30,428 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+ERROR 2021-07-19 09:08:33,041 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 204, in render
+    c = self.get_render(context).flatten()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_tags.py", line 121, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/utils.py", line 139, in render_field
+    html = template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/crispy_forms/templatetags/crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/utils/html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "/home/pyvip/.virtualenvs/meiduo/lib/python3.6/site-packages/django/forms/boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2021-07-19 09:08:33,156 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 698111
+WARNING 2021-07-19 09:12:42,934 log 228 Not Found: /
+WARNING 2021-07-19 09:12:43,014 basehttp 154 "GET / HTTP/1.1" 404 2116
+WARNING 2021-07-19 09:12:43,235 log 228 Not Found: /favicon.ico
+WARNING 2021-07-19 09:12:43,358 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2167
+INFO 2021-07-19 09:12:51,727 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-19 09:12:52,792 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-19 09:12:52,999 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2021-07-19 09:12:53,616 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2021-07-19 09:12:53,671 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2021-07-19 09:12:53,675 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2021-07-19 09:12:53,752 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2021-07-19 09:12:53,853 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2021-07-19 09:12:53,985 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2021-07-19 09:12:54,399 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2021-07-19 09:12:54,446 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2021-07-19 09:12:54,581 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2021-07-19 09:12:54,630 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2021-07-19 09:12:54,948 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2021-07-19 09:12:54,978 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2021-07-19 09:12:55,208 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2021-07-19 09:12:55,311 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:12:55,775 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2021-07-19 09:13:04,902 basehttp 154 "POST /admin/ HTTP/1.1" 200 4384
+INFO 2021-07-19 09:13:05,208 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-19 09:13:17,998 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2021-07-19 09:13:18,337 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 09:13:18,472 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2021-07-19 09:13:18,531 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2021-07-19 09:13:18,526 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2021-07-19 09:13:18,669 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:13:23,432 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 13530
+INFO 2021-07-19 09:13:23,578 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2021-07-19 09:13:23,599 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2021-07-19 09:13:23,765 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:13:31,821 basehttp 154 "POST /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 12209
+INFO 2021-07-19 09:13:31,989 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:13:39,612 basehttp 154 "POST /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 302 0
+INFO 2021-07-19 09:13:40,411 basehttp 154 "GET /admin/xadmin/userwidget/ HTTP/1.1" 200 26015
+INFO 2021-07-19 09:13:40,622 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2021-07-19 09:13:40,647 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2021-07-19 09:13:40,677 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2021-07-19 09:13:40,793 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2021-07-19 09:13:40,795 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2021-07-19 09:13:41,085 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2021-07-19 09:13:41,253 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2021-07-19 09:13:41,277 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2021-07-19 09:13:41,225 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:13:41,338 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+WARNING 2021-07-19 09:13:41,349 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1770
+INFO 2021-07-19 09:13:41,506 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+WARNING 2021-07-19 09:13:41,980 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1770
+INFO 2021-07-19 09:13:42,093 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2021-07-19 09:13:47,178 basehttp 154 "GET /admin/ HTTP/1.1" 200 12489
+INFO 2021-07-19 09:13:47,369 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.time.js HTTP/1.1" 200 11679
+INFO 2021-07-19 09:13:47,503 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.resize.js HTTP/1.1" 200 2504
+INFO 2021-07-19 09:13:47,522 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.js HTTP/1.1" 200 115930
+INFO 2021-07-19 09:13:47,583 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.pie.js HTTP/1.1" 200 23405
+INFO 2021-07-19 09:13:47,668 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.categories.js HTTP/1.1" 200 6033
+INFO 2021-07-19 09:13:47,753 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.aggregate.js HTTP/1.1" 200 4096
+INFO 2021-07-19 09:13:47,790 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:13:47,897 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.charts.js HTTP/1.1" 200 2146
+INFO 2021-07-19 09:13:50,613 basehttp 154 "POST /admin/settings/user HTTP/1.1" 200 0
+INFO 2021-07-19 09:13:52,062 basehttp 154 "POST /admin/settings/user HTTP/1.1" 200 0
+INFO 2021-07-19 09:13:53,101 basehttp 154 "POST /admin/settings/user HTTP/1.1" 200 0
+INFO 2021-07-19 09:13:59,100 basehttp 154 "POST /admin/ HTTP/1.1" 200 12489
+INFO 2021-07-19 09:13:59,240 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:14:02,682 basehttp 154 "GET /admin/ HTTP/1.1" 200 12489
+INFO 2021-07-19 09:14:02,994 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:14:13,831 basehttp 154 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 200 13820
+INFO 2021-07-19 09:14:14,032 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:14:24,043 basehttp 154 "POST /admin/xadmin/userwidget/add/ HTTP/1.1" 200 12209
+INFO 2021-07-19 09:14:24,225 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 09:14:29,439 basehttp 154 "POST /admin/xadmin/userwidget/add/ HTTP/1.1" 302 0
+INFO 2021-07-19 09:14:30,520 basehttp 154 "GET /admin/xadmin/userwidget/ HTTP/1.1" 200 26877
+WARNING 2021-07-19 09:14:30,736 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1770
+INFO 2021-07-19 09:14:30,801 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 09:14:31,246 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1770
+INFO 2021-07-19 09:14:42,952 basehttp 154 "GET /admin/xadmin/userwidget/add/ HTTP/1.1" 200 13820
+INFO 2021-07-19 09:14:48,699 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 25020
+INFO 2021-07-19 09:14:48,836 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2021-07-19 09:14:48,934 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2021-07-19 09:14:48,956 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2021-07-19 09:14:49,203 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 09:14:49,250 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1770
+INFO 2021-07-19 09:15:13,307 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28726
+INFO 2021-07-19 09:15:13,497 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 10:04:12,590 log 228 Not Found: /
+WARNING 2021-07-19 10:04:12,668 basehttp 154 "GET / HTTP/1.1" 404 2111
+INFO 2021-07-19 10:04:20,914 basehttp 154 "GET /admin/ HTTP/1.1" 200 12489
+INFO 2021-07-19 10:04:21,159 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.pie.js HTTP/1.1" 200 23405
+INFO 2021-07-19 10:04:21,175 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.js HTTP/1.1" 200 115930
+INFO 2021-07-19 10:04:21,188 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 10:04:21,208 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.time.js HTTP/1.1" 200 11679
+INFO 2021-07-19 10:04:21,224 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.resize.js HTTP/1.1" 200 2504
+INFO 2021-07-19 10:04:21,259 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.categories.js HTTP/1.1" 200 6033
+INFO 2021-07-19 10:04:21,272 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.aggregate.js HTTP/1.1" 200 4096
+INFO 2021-07-19 10:04:21,388 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.charts.js HTTP/1.1" 200 2146
+INFO 2021-07-19 10:04:22,347 basehttp 154 "GET /admin/ HTTP/1.1" 200 12489
+INFO 2021-07-19 10:04:22,676 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.resize.js HTTP/1.1" 200 2504
+INFO 2021-07-19 10:04:22,841 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.aggregate.js HTTP/1.1" 200 4096
+INFO 2021-07-19 10:04:23,005 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.categories.js HTTP/1.1" 200 6033
+INFO 2021-07-19 10:04:23,223 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.charts.js HTTP/1.1" 200 2146
+INFO 2021-07-19 10:04:23,616 basehttp 154 "GET /static/xadmin/vendor/flot/jquery.flot.js HTTP/1.1" 200 115930
+INFO 2021-07-19 10:04:24,994 basehttp 154 "POST /admin/settings/user HTTP/1.1" 200 0
+INFO 2021-07-19 10:04:26,867 basehttp 154 "POST /admin/settings/user HTTP/1.1" 200 0
+INFO 2021-07-19 10:04:27,262 basehttp 154 "POST /admin/settings/user HTTP/1.1" 200 0
+INFO 2021-07-19 10:04:29,759 basehttp 154 "POST /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 10:04:29,961 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 10:04:36,674 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28726
+INFO 2021-07-19 10:04:36,751 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 10:04:36,762 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2021-07-19 10:04:40,810 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80769
+INFO 2021-07-19 10:04:40,914 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 11:27:50,903 log 228 Not Found: /
+WARNING 2021-07-19 11:27:50,955 basehttp 154 "GET / HTTP/1.1" 404 2116
+INFO 2021-07-19 11:27:57,155 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2021-07-19 11:27:57,695 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+INFO 2021-07-19 11:27:57,776 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2021-07-19 11:27:57,802 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2021-07-19 11:27:57,900 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-07-19 11:27:57,919 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2021-07-19 11:27:58,098 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2021-07-19 11:27:58,103 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2021-07-19 11:27:58,120 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2021-07-19 11:27:58,350 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-07-19 11:27:58,363 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-07-19 11:28:19,401 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+INFO 2021-07-19 11:28:24,364 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+INFO 2021-07-19 11:28:40,488 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+INFO 2021-07-19 11:28:40,594 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2021-07-19 11:28:40,638 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2021-07-19 11:28:40,721 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-07-19 11:28:40,787 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2021-07-19 11:28:40,883 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2021-07-19 11:28:40,909 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2021-07-19 11:28:40,914 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2021-07-19 11:28:41,315 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-07-19 11:28:41,368 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2021-07-19 11:28:49,322 log 228 Not Found: /
+WARNING 2021-07-19 11:28:49,350 basehttp 154 "GET / HTTP/1.1" 404 2111
+INFO 2021-07-19 11:28:55,007 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+INFO 2021-07-19 11:28:55,050 basehttp 154 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+INFO 2021-07-19 11:28:55,098 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2021-07-19 11:28:55,194 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2021-07-19 11:28:56,160 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+INFO 2021-07-19 11:28:56,328 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-07-19 11:28:56,567 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2021-07-19 11:28:56,592 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2021-07-19 11:28:56,666 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2021-07-19 11:28:57,420 basehttp 154 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-07-19 11:28:57,484 basehttp 154 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-07-19 11:59:49,866 basehttp 154 "GET /admin/ HTTP/1.1" 200 2582
+WARNING 2021-07-19 12:13:14,991 log 228 Not Found: /
+WARNING 2021-07-19 12:13:15,074 basehttp 154 "GET / HTTP/1.1" 404 2111
+INFO 2021-07-19 12:13:21,109 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 12:13:21,148 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,154 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,224 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,244 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,245 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,289 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,295 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,320 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,337 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,391 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,425 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,487 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,489 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,523 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 12:13:21,538 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,543 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,583 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:21,639 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:22,542 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 12:13:22,614 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:25,419 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 12:13:25,624 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 12:13:28,899 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 25020
+INFO 2021-07-19 12:13:29,023 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:29,088 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2021-07-19 12:13:29,099 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2021-07-19 12:13:29,139 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2021-07-19 12:13:29,208 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2021-07-19 12:13:29,355 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2021-07-19 12:13:29,413 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:29,419 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2021-07-19 12:13:29,502 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2021-07-19 12:13:29,510 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 12:13:29,538 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2021-07-19 12:13:29,677 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+WARNING 2021-07-19 12:13:29,730 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 12:13:29,781 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:29,899 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:30,069 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2021-07-19 12:13:30,134 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+WARNING 2021-07-19 12:13:30,314 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+WARNING 2021-07-19 12:14:34,589 log 228 Not Found: /
+WARNING 2021-07-19 12:14:34,850 basehttp 154 "GET / HTTP/1.1" 404 2111
+INFO 2021-07-19 12:22:45,858 basehttp 154 "GET /admin/xadmin/log/?_p_action_time__isnull=False HTTP/1.1" 200 26834
+INFO 2021-07-19 12:22:46,609 basehttp 154 "GET /admin/xadmin/log/?_p_action_time__gte=2021-07-19+00%3A00%3A00&_p_action_time__lt=2021-07-20+00%3A00%3A00 HTTP/1.1" 200 28106
+WARNING 2021-07-19 12:22:46,775 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 12:22:46,828 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 12:22:46,989 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 12:22:49,586 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18549
+INFO 2021-07-19 12:22:49,805 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 13:08:01,010 log 228 Not Found: /
+WARNING 2021-07-19 13:08:01,086 basehttp 154 "GET / HTTP/1.1" 404 2111
+INFO 2021-07-19 13:08:10,359 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 13:08:10,415 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 13:08:12,267 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 13:08:15,774 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-19 13:08:15,874 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 13:08:18,114 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18549
+INFO 2021-07-19 13:08:18,276 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 13:08:34,125 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 25020
+WARNING 2021-07-19 13:08:34,210 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 13:08:34,229 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 13:08:34,390 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 13:08:35,994 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80769
+INFO 2021-07-19 13:08:36,077 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-19 13:08:36,110 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2021-07-19 13:08:38,276 basehttp 154 "GET /admin/auth/permission/8/update/ HTTP/1.1" 200 13500
+WARNING 2021-07-19 13:08:38,363 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-19 13:08:38,384 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-19 13:08:38,508 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+WARNING 2021-07-20 08:54:12,981 log 228 Not Found: /
+WARNING 2021-07-20 08:54:13,056 basehttp 154 "GET / HTTP/1.1" 404 2111
+WARNING 2021-07-20 08:54:13,339 log 228 Not Found: /favicon.ico
+WARNING 2021-07-20 08:54:13,430 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2162
+INFO 2021-07-20 08:55:50,982 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-20 08:55:51,020 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,024 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,154 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,229 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,285 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,308 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-20 08:55:51,319 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,350 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,402 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,410 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,424 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,430 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,431 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,437 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:51,450 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:55:52,207 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-20 08:55:52,291 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-20 08:55:52,343 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:01,656 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2021-07-20 08:56:01,842 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-20 08:56:01,907 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:01,918 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:01,941 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:02,054 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:56:13,983 basehttp 154 "GET /admin/logout/ HTTP/1.1" 200 2656
+INFO 2021-07-20 08:56:14,191 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-20 08:56:16,773 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-20 08:56:16,944 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-20 08:56:25,134 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2021-07-20 08:56:25,614 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-20 08:56:25,782 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:56:34,813 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 13530
+INFO 2021-07-20 08:56:34,906 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:34,914 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:56:34,920 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:41,716 basehttp 154 "POST /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 11896
+INFO 2021-07-20 08:56:41,838 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:56:55,265 basehttp 154 "POST /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 302 0
+INFO 2021-07-20 08:56:55,488 basehttp 154 "GET /admin/xadmin/userwidget/ HTTP/1.1" 200 26873
+INFO 2021-07-20 08:56:55,594 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,629 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,629 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,679 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,751 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,775 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+WARNING 2021-07-20 08:56:55,805 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-20 08:56:55,877 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,940 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,961 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:55,990 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:56:56,049 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:56:56,304 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+WARNING 2021-07-20 08:56:56,346 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-20 08:56:58,252 basehttp 154 "GET /admin/xadmin/userwidget/3/update/ HTTP/1.1" 200 14721
+INFO 2021-07-20 08:56:58,292 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2021-07-20 08:56:58,371 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:57:03,559 basehttp 154 "GET /admin/xadmin/userwidget/ HTTP/1.1" 200 26559
+WARNING 2021-07-20 08:57:03,676 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-20 08:57:05,868 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 13530
+INFO 2021-07-20 08:57:06,767 basehttp 154 "GET /admin/ HTTP/1.1" 200 11413
+WARNING 2021-07-20 08:57:09,970 log 228 Not Found: /1
+WARNING 2021-07-20 08:57:10,018 basehttp 154 "GET /1 HTTP/1.1" 404 2132
+INFO 2021-07-20 08:57:52,574 basehttp 154 "GET /admin/ HTTP/1.1" 200 11413
+INFO 2021-07-20 08:57:52,614 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:57:54,337 basehttp 154 "GET /admin/ HTTP/1.1" 200 11413
+INFO 2021-07-20 08:58:03,471 basehttp 154 "POST /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-20 08:58:03,528 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:58:46,329 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 13530
+INFO 2021-07-20 08:58:46,464 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:58:58,044 basehttp 154 "GET /admin/ HTTP/1.1" 200 9327
+INFO 2021-07-20 08:58:58,106 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-20 08:59:01,432 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 25020
+INFO 2021-07-20 08:59:01,502 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:59:01,514 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2021-07-20 08:59:01,542 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2021-07-20 08:59:01,601 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-20 08:59:01,689 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-20 09:00:01,397 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28726
+INFO 2021-07-20 09:00:01,475 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-21 08:45:49,229 log 228 Not Found: /
+WARNING 2021-07-21 08:45:49,324 basehttp 154 "GET / HTTP/1.1" 404 2111
+WARNING 2021-07-21 08:45:49,558 log 228 Not Found: /favicon.ico
+WARNING 2021-07-21 08:45:49,728 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2162
+INFO 2021-07-21 08:45:55,297 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-21 08:45:55,508 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:55,535 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:55,988 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:56,305 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:56,657 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:56,762 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:56,997 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-21 08:45:57,086 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,121 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,228 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,362 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,173 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2021-07-21 08:45:57,291 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,625 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,890 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:57,831 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:45:58,476 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2021-07-21 08:45:58,624 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:06,875 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2021-07-21 08:46:07,423 basehttp 154 "GET /admin/ HTTP/1.1" 200 9334
+INFO 2021-07-21 08:46:07,521 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:07,553 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:07,553 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:07,869 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:16,926 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28733
+INFO 2021-07-21 08:46:16,984 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,045 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,051 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,054 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,014 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,238 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,285 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:17,508 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:21,829 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28733
+INFO 2021-07-21 08:46:22,078 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:26,850 basehttp 154 "GET /admin/users/user/ HTTP/1.1" 200 28733
+INFO 2021-07-21 08:46:26,979 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:28,032 basehttp 154 "GET /admin/ HTTP/1.1" 200 9334
+INFO 2021-07-21 08:46:28,231 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:33,382 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 13537
+INFO 2021-07-21 08:46:33,535 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:37,135 basehttp 154 "POST /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 11903
+INFO 2021-07-21 08:46:37,260 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:46:45,392 basehttp 154 "POST /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 200 13556
+INFO 2021-07-21 08:46:46,208 basehttp 154 "GET /admin/xadmin/userwidget/ HTTP/1.1" 200 25706
+INFO 2021-07-21 08:46:46,424 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:46,653 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:47,638 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:46:47,960 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+WARNING 2021-07-21 08:46:48,238 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:46:48,281 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-21 08:46:50,665 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:49:07,240 basehttp 154 "GET /admin/xadmin/userwidget/?_cols=id.widget_type.page_id.user HTTP/1.1" 200 28108
+INFO 2021-07-21 08:49:07,374 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:49:07,610 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:49:07,733 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+WARNING 2021-07-21 08:49:07,961 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:49:09,671 basehttp 154 "GET /admin/xadmin/userwidget/2/update/ HTTP/1.1" 200 14751
+INFO 2021-07-21 08:49:09,767 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2021-07-21 08:49:09,833 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:49:13,575 basehttp 154 "GET /admin/xadmin/userwidget/2/delete/ HTTP/1.1" 200 9710
+INFO 2021-07-21 08:49:13,671 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:49:15,084 basehttp 154 "POST /admin/xadmin/userwidget/2/delete/ HTTP/1.1" 302 0
+INFO 2021-07-21 08:49:15,663 basehttp 154 "GET /admin/xadmin/userwidget/ HTTP/1.1" 200 21958
+WARNING 2021-07-21 08:49:15,825 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:49:15,955 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-21 08:49:16,072 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:49:19,060 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 29830
+INFO 2021-07-21 08:49:19,123 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2021-07-21 08:49:19,149 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2021-07-21 08:49:19,325 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+WARNING 2021-07-21 08:49:19,450 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:49:19,467 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2021-07-21 08:49:19,747 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 404 1765
+INFO 2021-07-21 08:49:22,483 basehttp 154 "GET /admin/account/password/ HTTP/1.1" 200 11121
+INFO 2021-07-21 08:49:22,629 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:49:41,448 basehttp 154 "POST /admin/account/password/ HTTP/1.1" 200 11398
+INFO 2021-07-21 08:49:41,592 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:50:04,381 basehttp 154 "POST /admin/account/password/ HTTP/1.1" 200 11258
+INFO 2021-07-21 08:50:04,561 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:50:32,428 basehttp 154 "POST /admin/account/password/ HTTP/1.1" 200 11258
+INFO 2021-07-21 08:50:32,637 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2021-07-21 08:50:41,513 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80776
+INFO 2021-07-21 08:50:41,810 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
